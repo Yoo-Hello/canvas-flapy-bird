@@ -28,7 +28,7 @@ window.onload=function(){
 		//画鸟
         ctx.save();
         ctx.fillStyle="rgba(255,255,255,0)";
-		a+=0.05;
+		a+=0.03;
 		dird.y += a*a;
 		ctx.fillRect(140,dird.y,dird.w,dird.h);
         ctx.drawImage(xsn1,140,dird.y,dird.w,dird.h);
